@@ -28,5 +28,7 @@ int main(void) {
 	bool ret4 = IsEmpty(L);
 	printf("%d\n", ret4);
 
+	PrintSqlist(L);
+
 	return 0;
 }
