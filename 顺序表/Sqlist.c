@@ -75,7 +75,7 @@ bool PrintSqlist(Sqlist L) {
 	}
 }
 //判断顺序表的元素是否为空
-bool IsEmpty(Sqlist L) {
+bool SqlistIsEmpty(Sqlist L) {
 	if (L.length == 0) {
 		return true;
 	}

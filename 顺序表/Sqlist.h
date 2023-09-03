@@ -21,7 +21,7 @@ ElemType SqlistDelete(Sqlist* L, int i);
 //打印顺序表的所有元素
 bool PrintSqlist(Sqlist L);
 //判断顺序表的元素是否为空
-bool IsEmpty(Sqlist L);
+bool SqlistIsEmpty(Sqlist L);
 //销毁顺序表
 bool DestroySqlist(Sqlist* L);
 

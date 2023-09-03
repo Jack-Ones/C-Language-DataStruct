@@ -20,12 +20,12 @@ int main(void) {
 
 	PrintSqlist(L);
 
-	bool ret3 = IsEmpty(L);
+	bool ret3 = SqlistIsEmpty(L);
 	printf("%d\n", ret3);
 
 	DestroySqlist(&L);
 
-	bool ret4 = IsEmpty(L);
+	bool ret4 = SqlistIsEmpty(L);
 	printf("%d\n", ret4);
 
 	PrintSqlist(L);
