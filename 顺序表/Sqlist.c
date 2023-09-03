@@ -22,7 +22,7 @@ int LocateElem(Sqlist L, ElemType val) {
 //按照位置查找元素，返回元素值
 ElemType GetElem(Sqlist L, int i) {
 	if (i < 0 || i >=L.length) {
-		printf("int i is wrong->GetElem(L,i)");
+		printf("int i is wrong->GetElem(L,i)\n");
 		exit(1);
 	}
 	else {
@@ -32,7 +32,7 @@ ElemType GetElem(Sqlist L, int i) {
 //在顺序表指定位置插入元素值
 bool SqlistInsert(Sqlist* L, int i, ElemType val) {
 	if (i < 0 || i >L->length) {
-		printf("int i is wrong->SqlistInsert(&L,i,val)");
+		printf("int i is wrong->SqlistInsert(&L,i,val)\n");
 		exit(1);
 	}
 	else {
@@ -47,7 +47,7 @@ bool SqlistInsert(Sqlist* L, int i, ElemType val) {
 //删除顺序表指定位置的元素
 ElemType SqlistDelete(Sqlist* L, int i) {
 	if (i < 0 || i >= L->length) {
-		printf("int i is wrong->SqlistInsert(&L,i,val)");
+		printf("int i is wrong->SqlistInsert(&L,i,val)\n");
 		exit(1);
 	}
 	else {
