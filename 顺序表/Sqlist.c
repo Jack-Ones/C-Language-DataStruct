@@ -62,6 +62,7 @@ ElemType SqlistDelete(Sqlist* L, int i) {
 //打印顺序表的所有元素
 bool PrintSqlist(Sqlist L) {
 	if (IsEmpty(L)) {
+		printf("Nothing print!The Sqlist is Empty!\n");
 		return false;
 	}
 	else
