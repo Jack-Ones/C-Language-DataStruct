@@ -4,6 +4,7 @@
 //初始化一个空的顺序表
 void InitSqlist(Sqlist* L) {
 	memset(L->data,0, MaxSize_100);
+	L->length = 0;
 }
 
 //按值在顺序表查找元素返回位置
